@@ -27,10 +27,4 @@ maximum = 15
 
 indexes = [i for i, x in enumerate(arr) if minimum <= x <= maximum]
 
-print(indexes) # Output arr = [2, 5, 8, 10, 12, 15, 18]
-minimum = 5
-maximum = 15
-
-indexes = [i for i, x in enumerate(arr) if minimum <= x <= maximum]
-
 print(indexes) 
